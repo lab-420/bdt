@@ -1,0 +1,24 @@
+Entering into hbase shell
+
+  > hbase shell
+  
+Creating a table using hbase 
+
+  > create 'st_percentage','Rollno','Percentage'
+  
+Describe 
+
+  > desc 'st_percentage'
+  
+Inserting values in the hbase table
+
+  > put 'st_percentage', '1001','Percentage:98','Rollno:1' 
+  
+  Insert more rows using similar manner
+  
+Displaying data of the table
+
+  > scan 'st_percentage'
+  
+Alter,disable,enable,drop and exists are given in lab manual
+Type the exact commands..    
